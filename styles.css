@@ -1,12 +1,12 @@
 /* Set background */
 html {
-  background-color: maroon;
+  background-color: #00356b;
 }
 
 /* styles for the body of the site */
 body {
   width: 60%;
-  background-color: orange;
+  background-color: lightgoldenrodyellow;
   border: 5px solid black;
   padding: 0 20px 20px 20px;
   margin-top: 25px;
@@ -36,4 +36,16 @@ img {
   max-width: 100%;
   height: auto;
 
+}
+
+/* Italicized text */
+
+.italic-text {
+  font-style: italic;
+}
+
+/* Applying to a specific HTML element, e.g., a paragraph */
+
+p.italic-text {
+  font-style: italic;
 }
